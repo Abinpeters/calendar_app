@@ -1,0 +1,35 @@
+.day-cell {
+  border: 1px solid #E5E7EB;
+  height: 6.5rem;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  overflow-y: auto;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+}
+
+.day-cell:hover {
+  background-color: #F9FAFB;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.day-cell.today {
+  background-color: #FEF3C7;
+  border: 2px solid #F59E0B;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.day-cell.today:hover {
+  background-color: #FDE68A;
+}
+
+.date-number {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #1F2937;
+  margin-bottom: 0.5rem;
+  display: block;
+}
