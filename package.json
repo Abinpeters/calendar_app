@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://abinpeters.github.io/calender_app/",
+  "homepage": "https://abinpeters.github.io/calendar_app/",
     "scripts": {
     "dev": "vite",
     "build": "vite build",
