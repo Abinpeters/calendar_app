@@ -28,7 +28,7 @@ export default function Calendar() {
   return (
     
     <div className="calendar-container">
-      <h1 className="calendar-title ">My Calender</h1>
+      <h1 className="calendar-title ">My Calendar</h1>
             <TodayEvents events={allEvents} /> {/* 🔹 Modular TodayEvents */}
             <AddItem onAdd={handleAddEvent} />
       <div className="calendar-header">
