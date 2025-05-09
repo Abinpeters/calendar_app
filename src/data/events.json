@@ -61,5 +61,21 @@
     "date": "2025-05-08",
     "time": "20:00",
     "duration": "2h"
-  }
+  },
+  {
+  "id": 13,
+  "title": "Morning Jog",
+  "date": "2025-05-10",
+  "time": "07:00",
+  "duration": "45m"
+},
+{
+  "id": 14,
+  "title": "Book Club Meeting",
+  "date": "2025-05-10",
+  "time": "18:30",
+  "duration": "1h 30m"
+}
+
+
 ]
